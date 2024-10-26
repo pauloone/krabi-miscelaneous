@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" version="24.8.3">
   <diagram name="Page-1" id="7e0a89b8-554c-2b80-1dc8-d5c74ca68de4">
-    <mxGraphModel dx="2074" dy="1134" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1975" dy="1080" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -113,7 +113,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="c6Y1Lu46FK5Pjhcwvuf1-52" value="CAN Connector" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="540" y="470" width="60" height="30" as="geometry" />
+          <mxGeometry x="520" y="480" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="c6Y1Lu46FK5Pjhcwvuf1-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="c6Y1Lu46FK5Pjhcwvuf1-24" target="c6Y1Lu46FK5Pjhcwvuf1-24">
           <mxGeometry relative="1" as="geometry" />
@@ -136,11 +136,74 @@
         <mxCell id="c6Y1Lu46FK5Pjhcwvuf1-59" value="courant for et faible sont isolés" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="360" y="585" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="c6Y1Lu46FK5Pjhcwvuf1-60" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="350" y="670" width="80" height="80" as="geometry" />
+        <mxCell id="c6Y1Lu46FK5Pjhcwvuf1-62" value="Power (H-bridge courant forts)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="280" y="960" width="200" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="c6Y1Lu46FK5Pjhcwvuf1-61" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="350" y="670" width="80" height="80" as="geometry" />
+        <mxCell id="c6Y1Lu46FK5Pjhcwvuf1-63" value="Control (µcourants)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="510" y="770" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="c6Y1Lu46FK5Pjhcwvuf1-64" value="" style="endArrow=none;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.172;entryY=0.011;entryDx=0;entryDy=0;entryPerimeter=0;shape=link;" edge="1" parent="1" source="c6Y1Lu46FK5Pjhcwvuf1-62" target="c6Y1Lu46FK5Pjhcwvuf1-55">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="730" as="sourcePoint" />
+            <mxPoint x="420" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c6Y1Lu46FK5Pjhcwvuf1-65" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.228;entryY=0.004;entryDx=0;entryDy=0;entryPerimeter=0;shape=link;" edge="1" parent="1" source="c6Y1Lu46FK5Pjhcwvuf1-63" target="c6Y1Lu46FK5Pjhcwvuf1-55">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="970" as="sourcePoint" />
+            <mxPoint x="351" y="765" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c6Y1Lu46FK5Pjhcwvuf1-68" value="" style="endArrow=none;html=1;rounded=0;entryX=0.777;entryY=1.003;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="c6Y1Lu46FK5Pjhcwvuf1-63" target="c6Y1Lu46FK5Pjhcwvuf1-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="870" as="sourcePoint" />
+            <mxPoint x="420" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c6Y1Lu46FK5Pjhcwvuf1-69" value="" style="endArrow=none;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="c6Y1Lu46FK5Pjhcwvuf1-62">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="1020" as="sourcePoint" />
+            <mxPoint x="570" y="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c6Y1Lu46FK5Pjhcwvuf1-70" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="650" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c6Y1Lu46FK5Pjhcwvuf1-71" value="si pas d&#39;isolation totale les masses sont connectées ici" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="510" y="1020" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="c6Y1Lu46FK5Pjhcwvuf1-72" value="carte X..." style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="210" y="1310" width="540" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="c6Y1Lu46FK5Pjhcwvuf1-73" value="" style="endArrow=none;html=1;rounded=0;entryX=0.115;entryY=0.994;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.185;exitY=0.006;exitDx=0;exitDy=0;exitPerimeter=0;shape=link;" edge="1" parent="1" source="c6Y1Lu46FK5Pjhcwvuf1-72" target="c6Y1Lu46FK5Pjhcwvuf1-55">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="1390" as="sourcePoint" />
+            <mxPoint x="420" y="1340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c6Y1Lu46FK5Pjhcwvuf1-74" value="" style="endArrow=none;html=1;rounded=0;entryX=0.115;entryY=0.994;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.185;exitY=0.006;exitDx=0;exitDy=0;exitPerimeter=0;shape=link;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="1316" as="sourcePoint" />
+            <mxPoint x="354" y="1220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c6Y1Lu46FK5Pjhcwvuf1-75" value="" style="endArrow=none;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="c6Y1Lu46FK5Pjhcwvuf1-72" target="c6Y1Lu46FK5Pjhcwvuf1-55">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="1390" as="sourcePoint" />
+            <mxPoint x="420" y="1340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c6Y1Lu46FK5Pjhcwvuf1-76" value="power" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1240" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c6Y1Lu46FK5Pjhcwvuf1-78" value="CAN Connector" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="1250" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c6Y1Lu46FK5Pjhcwvuf1-79" value="&lt;div&gt;les cartes forment une chaine, et on toujours deux connecteurs de puissances et de CAN&lt;/div&gt;&lt;div&gt;les cartes sont chainées pour que le propre soit alimenté par le sale (for appels de courant avant les faibles)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;les résistances de terminaison CAN sont juste deux résistances 120ohm sur le connecteur à mettre au bout" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1340" width="150" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="c6Y1Lu46FK5Pjhcwvuf1-81" value="cette carte peut mesurer les tensions et les courants en optionel (soit via ADC raspi soit via µC en SPI)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="710" y="320" width="150" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
